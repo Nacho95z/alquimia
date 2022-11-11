@@ -1,0 +1,54 @@
+<app-header></app-header>
+
+<div class="carrusel" style="text-align:text-center ;">
+<p>  Nuestro catálogo de productos </p>
+
+<div class="asd" >
+    <nav ngbNav #nav="ngbNav" class="nav-tabs" style="float:right;">
+        <ng-container ngbNavItem >
+            <a ngbNavLink>Producto Nuevo</a>
+            <ng-template ngbNavContent><br><br>
+                <p style="margin-left: 560px;">
+                    <img src="assets/img/nav1.png" alt="">
+                </p>
+            </ng-template>
+        </ng-container>
+        <ng-container ngbNavItem>
+            <a ngbNavLink >Producto del mes</a>
+            <ng-template ngbNavContent>
+                <p style="margin-left: 560px;">
+                    Exe
+                </p >
+            </ng-template>
+        </ng-container>
+        <ng-container ngbNavItem>
+            <a ngbNavLink>Ofertas</a>
+            <ng-template ngbNavContent>
+                <p style="margin-left: 560px;">
+                    Sed
+                </p>
+            </ng-template>
+        </ng-container>
+    </nav>
+  </div>
+
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------>
+<table border="1" class="tabla">
+    <div class="catalogo">
+        <div class="container text-center">
+            <div class="row row-cols-3">
+              <div class="tituloD"><p> DULCE1 <br><img src="assets/img/caramelo.jpg" alt="..."> <br> $999.999 <br> <button value="comprar">Ver más</button> </div> <br>
+              <div class="tituloD"><p> DULCE2 <br><img src="assets/img/caramelo2.jpg" alt="..."><br> $999.999 <br> <button value="comprar">Ver más</button></div> 
+              <div class="tituloD"><p> DULCE3 <br><img src="assets/img/caramelo3.jpg" alt="..."><br> $999.999 <br> <button value="comprar">Ver más</button></div>              
+              <div class="tituloD"><p> DULCE4 <br><img src="assets/img/caramelo4.jpg" alt="..."><br> $999.999 <br> <button value="comprar">Ver más</button></div>
+              <div class="tituloD"><p> DULCE5 <br><img src="assets/img/caramelo5.jpg" alt="..."><br> $999.999 <br> <button value="comprar">Ver más</button></div>
+              <div class="tituloD"><p> DULCE6 <br><img src="assets/img/caramelo6.jpg" alt="..."><br> $999.999 <br> <button value="comprar">Ver más</button>
+             </div>
+            </div>
+          </div>
+    </div>
+</table>

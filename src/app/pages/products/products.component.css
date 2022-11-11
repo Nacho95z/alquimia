@@ -1,0 +1,23 @@
+.catalogo{
+    border: 1cm;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0px;
+    border-radius: 10%;
+
+}
+
+.tituloD{
+    font-weight: bolder;
+}
+
+.tabla{
+    width: 100%;
+}
+
+.asd{
+    width: 50%;
+}

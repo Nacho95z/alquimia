@@ -1,0 +1,15 @@
+carrusel{
+    border-radius:10%;
+    width: 77cm;
+    margin-top: 4%;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height:10cm;
+    width: 10cm;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
