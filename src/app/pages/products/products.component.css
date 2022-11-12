@@ -7,7 +7,6 @@ img{
     height: 200px;
     margin-bottom: 0px;
     border-radius: 10%;
-
 }
 
 .tituloD{
@@ -18,6 +17,9 @@ img{
     width: 100%;
 }
 
-.asd{
-    width: 50%;
+.navv{
+
+    width: 60%;
+    justify-content:center;
+
 }
